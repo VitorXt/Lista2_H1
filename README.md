@@ -4,9 +4,9 @@ Lista 2 de atividade de Desenvolvimento Web - 4° Período Uniaraxá
 <div>
     <h1>Lista 2 de atividades:</h1>
     <h3>Questão 1: Descreva 3 importantes motivos para validarmos os dados em nossa API.</h3>
-      <p>1 - Integridade de dados - Com os dados validados, se tem uma  </p>
-      <p>2 - Eficiencia - </p>  
-      <p>3 - Melhor experiencia do usuario - Com a validação feita</p> 
+      <p>1 - Integridade de dados - A validação dos dados ajuda a garantir que apenas informações válidas e corretas sejam aceitas e processadas pela API. Isso evita que dados incorretos, mal formatados ou maliciosos causem erros nos sistemas ou afetem os resultados das operações.</p>
+      <p>2 - Eficiencia - A validação de dados evita a ocorrência de erros ou exceções durante a execução das operações da API. Isso reduz a carga de trabalho desnecessária nos servidores e minimiza o tempo gasto na resolução de erros. Além disso, ao rejeitar dados inválidos o mais cedo possível, você pode evitar processamentos desnecessários.</p>  
+      <p>3 - Melhor experiencia do usuario - Dados válidos e bem formatados garantem que os usuários da API possam interagir de maneira mais eficaz e sem interrupções. Quando os dados são validados e mensagens de erro claras são fornecidas, os usuários podem corrigir erros facilmente, melhorando sua experiência geral.</p> 
   <br>
   <br>
     <h3>Questão 2: Considere as seguintes entidades, descreva quais as validações você faria e como faria:</h3>
