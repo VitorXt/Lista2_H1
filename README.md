@@ -4,9 +4,9 @@ Lista 2 de atividade de Desenvolvimento Web - 4° Período Uniaraxá
 <div>
     <h1>Lista 2 de atividades:</h1>
     <h3>Questão 1: Descreva 3 importantes motivos para validarmos os dados em nossa API.</h3>
-      <p>1 - </p>
-      <p>2 - </p>  
-	  <p>3 - </p> 
+      <p>1 - Integridade de dados - Com os dados validados, se tem uma  </p>
+      <p>2 - Eficiencia - </p>  
+      <p>3 - Melhor experiencia do usuario - Com a validação feita</p> 
   <br>
   <br>
     <h3>Questão 2: Considere as seguintes entidades, descreva quais as validações você faria e como faria:</h3>
