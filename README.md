@@ -22,7 +22,6 @@ Lista 2 de atividade de Desenvolvimento Web - 4° Período Uniaraxá
 	     I - Bairro
 	     J - Cidade
 	     K - Estado </p>
-		 
         <p>- </p>
       <h4>b)	Cenário 2: Cadastro de Disciplina</h4>
         <p>A - Nome
@@ -32,6 +31,7 @@ Lista 2 de atividade de Desenvolvimento Web - 4° Período Uniaraxá
 	       E - Semestre
 	       F - Ano
 	       G - Nome professor </p>
+		   <p>- </p>
   <br>
   <br>
     <h3>Questão 3: Em sala mostramos as validações utilizando inicialmente “o bom e velho if/else”, porém falamos que esse processo pode conter vantagens e desvantagens, por isso, mostramos depois o data annotation. Descreva comparando as duas técnicas apresentando vantagens e desvantagens.</h3>
