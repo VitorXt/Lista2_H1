@@ -11,7 +11,7 @@ Lista 2 de atividade de Desenvolvimento Web - 4° Período Uniaraxá
   <br>
     <h3>Questão 2: Considere as seguintes entidades, descreva quais as validações você faria e como faria:</h3>
       <h4>a)	Cenário 1: Cadastro de cliente com: </h4>
-	  <h4>A - Nome
+	  <p>A - Nome
 	      B - CPF
 	      C - Data Nascimento
 	      D - Email
@@ -21,7 +21,7 @@ Lista 2 de atividade de Desenvolvimento Web - 4° Período Uniaraxá
 	      H - Rua
 	      I - Bairro
 	      J - Cidade
-	      K - Estado </h4>
+	      K - Estado </p>
         <p>- </p>
       <h4>b)	Cenário 2: Cadastro de Disciplina</h4>
         <p>- </p>
