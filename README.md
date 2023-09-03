@@ -33,7 +33,14 @@ Lista 2 de atividade de Desenvolvimento Web - 4° Período Uniaraxá
   <br>
   <br>
     <h3>Questão 3: Em sala mostramos as validações utilizando inicialmente “o bom e velho if/else”, porém falamos que esse processo pode conter vantagens e desvantagens, por isso, mostramos depois o data annotation. Descreva comparando as duas técnicas apresentando vantagens e desvantagens.</h3>
-      <p>-  </p>
+      <p>If/Else:</p>
+
+<p>Vantagens: Controle total, flexibilidade e compatibilidade universal.</p>
+<p>Desvantagens: Código verboso, dificuldade de leitura e manutenção complexa.</p>
+<p>Data Annotation:</p>
+
+<p>Vantagens: Desacoplamento, legibilidade e facilidade de manutenção.</p>
+<p>Desvantagens: Limitado em complexidade, dependência de frameworks e menos controle.</p>
   <br>
   <br>
     <h3>Questão 4: Em sala mostramos que ao usar o data annotation, quando um dado é invalidado, ele não “chamava” a action e já retornava o “error message”. Descreva o que acontecia nesse caso que ele automaticamente já validava e não caia no debug da action?</h3>
