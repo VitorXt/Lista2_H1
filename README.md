@@ -46,7 +46,7 @@ Lista 2 de atividade de Desenvolvimento Web - 4° Período Uniaraxá
   <br>
   <br>
     <h3>Questão 4: Em sala mostramos que ao usar o data annotation, quando um dado é invalidado, ele não “chamava” a action e já retornava o “error message”. Descreva o que acontecia nesse caso que ele automaticamente já validava e não caia no debug da action?</h3>
-      <p>- </p>
+      <p>Ao usar data annotation para validações em uma aplicação, se os dados de entrada não atenderem às regras de validação definidas, o framework interrompe a execução da action e retorna um "error message" automaticamente, sem entrar no ponto de depuração da action. Isso ocorre porque o framework detecta a invalidade dos dados antes de executar o código da action, economizando recursos e melhorando a eficiência e a segurança da aplicação. </p>
   <br>
   <br>
     <h3>Questão 5: Crie no AlunoController que você criou na lista anterior de exercícios as validações para a classe aluno (Nome, Ra, Email, Cpf, Ativo).
