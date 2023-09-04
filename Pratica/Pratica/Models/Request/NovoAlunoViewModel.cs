@@ -14,7 +14,7 @@ namespace PraticaList1.Models.Request
         public string Nome { get; set; }
 
         [Required(ErrorMessage = "O E-mail é obrigatório!")]
-        [MinLength(3, ErrorMessage = "O nome deve ter no mínimo 3 caracteres!")]
+        [EmailAddress]
         public string Email { get; set; }
 
         [Required(ErrorMessage = "O CPF é obrigatório!")]

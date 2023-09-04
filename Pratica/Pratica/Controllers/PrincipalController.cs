@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
+using Pratica.Configuration;
 using Pratica.Models.Request;
 
 namespace Pratica.Controllers

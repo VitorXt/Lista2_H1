@@ -1,4 +1,6 @@
 ﻿using Pratica.Models.Request;
+
+namespace Pratica.Configuration
 {
     public class ApiResponse<T>
     {

@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using Pratica.Models.Request;
+using PraticaList1.Models.Request;
 
 namespace Pratica.Controllers
 {
@@ -29,19 +30,19 @@ namespace Pratica.Controllers
             return JsonConvert.DeserializeObject<List<AlunoViewModel>>(json);
         }
 
-        private int ObterProximoRADisponivel()
-        {
-            List<AlunoViewModel> alunos = LerAlunosDoArquivo();
+        //private int ObterProximoRADisponivel()
+        //{
+        //    List<AlunoViewModel> alunos = LerAlunosDoArquivo();
 
-            if (alunos.Any())
-            {
-                return alunos.Max(a => a.RA) + 1;
-            }
-            else
-            {
-                return 1;
-            }
-        }
+        //    if (alunos.Any())
+        //    {
+        //        return alunos.Max(a => a.RA) + 1;
+        //    }
+        //    else
+        //    {
+        //        return 1;
+        //    }
+        //}
 
         private void EscreverAlunosNoArquivo(List<AlunoViewModel> alunos)
         {
@@ -63,7 +64,7 @@ namespace Pratica.Controllers
 
 
         [HttpGet("{ra}")]
-        public IActionResult Get(int ra)
+        public IActionResult Get(string ra)
         {
             List<AlunoViewModel> alunos = LerAlunosDoArquivo();
             AlunoViewModel aluno = alunos.Find(a => a.RA == ra);
@@ -84,17 +85,11 @@ namespace Pratica.Controllers
                 return BadRequest();
             }
 
-            if (!ValidacaoAluno(aluno))
-            {
-                return BadRequest();
-            }
-
             List<AlunoViewModel> alunos = LerAlunosDoArquivo();
-            int proximoRA = ObterProximoRADisponivel();
 
             AlunoViewModel novoAluno = new AlunoViewModel()
             {
-                RA = proximoRA,
+                RA = aluno.RA,
                 Nome = aluno.Nome,
                 Email = aluno.Email,
                 CPF = aluno.CPF,
@@ -109,7 +104,7 @@ namespace Pratica.Controllers
 
 
         [HttpPut("{ra}")]
-        public IActionResult Put(int ra, [FromBody] EditaAlunoViewModel aluno)
+        public IActionResult Put(string ra, [FromBody] EditaAlunoViewModel aluno)
         {
             if (aluno == null)
             {
@@ -140,7 +135,7 @@ namespace Pratica.Controllers
 
 
         [HttpDelete("{ra}")]
-        public IActionResult Delete(int ra)
+        public IActionResult Delete(string ra)
         {
             List<AlunoViewModel> alunos = LerAlunosDoArquivo();
             AlunoViewModel aluno = alunos.Find(a => a.RA == ra);
@@ -157,22 +152,5 @@ namespace Pratica.Controllers
 
         #endregion
 
-        private bool ValidacaoAluno(NovoAlunoViewModel aluno)
-        {
-            if (aluno.Nome == "")
-            {
-                return false;
-            }
-            if (aluno.CPF == "")
-            {
-                return false;
-            }
-            if (aluno.Email == "")
-            {
-                return false;
-            }
-
-            return true;
-        }
     }
 }

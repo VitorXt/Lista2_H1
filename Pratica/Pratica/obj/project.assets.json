@@ -481,19 +481,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\044263\\.nuget\\packages\\": {}
+    "C:\\Users\\n\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\044263\\Documents\\Lista1\\Pratica\\Pratica\\Pratica.csproj",
+      "projectUniqueName": "C:\\Users\\n\\Desktop\\Repositorios\\RepoGit\\Uniaraxa\\Lista2_H1\\Pratica\\Pratica\\Pratica.csproj",
       "projectName": "Pratica",
-      "projectPath": "C:\\Users\\044263\\Documents\\Lista1\\Pratica\\Pratica\\Pratica.csproj",
-      "packagesPath": "C:\\Users\\044263\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\044263\\Documents\\Lista1\\Pratica\\Pratica\\obj\\",
+      "projectPath": "C:\\Users\\n\\Desktop\\Repositorios\\RepoGit\\Uniaraxa\\Lista2_H1\\Pratica\\Pratica\\Pratica.csproj",
+      "packagesPath": "C:\\Users\\n\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\n\\Desktop\\Repositorios\\RepoGit\\Uniaraxa\\Lista2_H1\\Pratica\\Pratica\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\044263\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\n\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -547,7 +547,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
